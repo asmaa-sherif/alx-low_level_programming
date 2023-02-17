@@ -14,9 +14,9 @@ int main(void)
   	char letter;
 
 	for (letter = 'z'; letter <= 'a'; letter--)
-	  	printf(letter);
+	  	putchar(letter);
 
-	printf('\n');
+	putchar('\n');
 
 	return(0);
 }
