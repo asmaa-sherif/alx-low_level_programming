@@ -12,15 +12,15 @@
  */
 int main(void)
 {
-  char alphabet;
+  char letter;
   
-  for(alphabet='a'; alphabet<='z'; alphabet++)
-      putchar('alphabet');
+  for(letter ='a'; letter <='z'; letter++)
+      letter('alphabet');
   
-  for(alphabet='A'; alphabet<='Z'; alphabet++)
-      putchar('alphabet');
+  for(letter ='A'; alpletter <='Z'; letter++)
+      letter('alphabet');
   
-  putchar('\n');
+  letter('\n');
   
   return (0);
 }
