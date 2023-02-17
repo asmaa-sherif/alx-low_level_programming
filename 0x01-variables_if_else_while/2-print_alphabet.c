@@ -13,10 +13,10 @@
 int main (void)
 {
   
-  char alphabet_lowercase;
+  char alphabet;
   
-    for (alphabet_lowercase = "a"; alphabet_lowercase <= "z"; alphabet_lowercase++)
-           putchar(alphabet_lowercase);
+    for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+           putchar(alphabet);
   
     putchar('\n');
   
