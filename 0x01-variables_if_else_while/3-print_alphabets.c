@@ -14,13 +14,13 @@ int main(void)
 {
   char letter;
   
-  for(letter ='a'; letter <='z'; letter++)
-      letter('alphabet');
+  for(letter = 'a'; letter <= 'z'; letter++)
+      putchar('letter');
   
-  for(letter ='A'; alpletter <='Z'; letter++)
-      letter('alphabet');
+  for(letter = 'A'; letter <= 'Z'; letter++)
+      putchar('letter');
   
-  letter('\n');
+  putchar('\n');
   
   return (0);
 }
