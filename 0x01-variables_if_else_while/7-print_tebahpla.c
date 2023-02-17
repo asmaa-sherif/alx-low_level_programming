@@ -1,13 +1,13 @@
-/* 
- * file: 7.Smile in the mirror
+/*
+ * File: 7-print_tebahpla.c
  * Auth: Asmaa Sherif
  */
 
 #include <stdio.h>
 
 /**
- * main - Prints all lowercase alphabet in reverse,
- * only using putchar.
+ * main - Prints the lowercase alphabet in reverse.
+ *
  * Return: Always 0.
  */
 int main(void)
