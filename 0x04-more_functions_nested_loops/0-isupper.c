@@ -1,18 +1,11 @@
-/* 
- * File: 0-isupper.c
- * Auth: Asmaa Sherif
- */
-
 #include "main.h"
 
-/* main - check the code.
+/* main - check if letter is upper.
  *
- * Return: Always 0.
+ * Return: 1 for upper letter or 0 for any else.
  */
 int _isupper(int c);
 {
-	char c;
-
 	if (c >= 65 && c <= 90)
 	{
 		return (1);
