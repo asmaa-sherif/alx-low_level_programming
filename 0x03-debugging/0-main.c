@@ -1,9 +1,3 @@
-/*
- * File: 0-main.c
- * Auth: Asmaa Sherif
- *
- */
-
 #include "main.h"
 
 /**
