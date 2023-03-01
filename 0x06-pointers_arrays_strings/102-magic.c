@@ -1,3 +1,4 @@
+#include <stdio>
 /**
  * infinite_add - Add up two numbers stored in given char arrays
  * @n1: The first number
@@ -7,7 +8,6 @@
  *
  * Return: 0 if buffer too small to store result, else return pointer to buffer
  */
-#include "main.h"
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
 	int l1, l2, tmpl, rl, i, sum, num1, num2, carry;
