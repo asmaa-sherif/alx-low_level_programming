@@ -1,28 +1,35 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
-* _strstr - locates a substring.
-* @haystack: char array
-* @needle: char array (keyword)
-*
-* Return: array
-*/
+  * _strstr - locate a substring
+  * @haystack: the string to search
+  * @needle: the string to find
+  *
+  * Return: char value
+  */
 char *_strstr(char *haystack, char *needle)
 {
-	while (*haystack != '\0')
-	{
-		char *duplicate = haystack;
+	int a = 0, b = 0;
 
-		while (*haystack == *needle && *haystack != '\0' && *needle != '\0')
+	while (haystack[a])
+	{
+		while (needle[b])
 		{
-			needle++;
-			haystack++;
+			if (haystack[a + b] != needle[b])
+			{
+				break;
+			}
+
+			b++;
 		}
-		if (!*needle != '\0')
+
+		if (needle[b] == '\0')
 		{
-			return (duplicate);
+			return (haystack + a);
 		}
-		haystack++;
+
+		a++;
 	}
-	return (0);
+
+	return ('\0');
 }
